@@ -1,0 +1,37 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Meniu" style="flex-grow: 1; background-color: rgb(151, 151, 151); -unity-text-align: upper-center; white-space: normal; text-overflow: clip; justify-content: space-around; align-items: center; align-self: auto; align-content: flex-start; width: auto;">
+        <ui:VisualElement name="Dependente" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: center; align-content: auto; width: 917px; flex-direction: row;">
+            <ui:Label text="Doriți să efectuați instalarea dependențelor dacă acestea nu exista?&#10;Dacă da, pe ce arhitectura doriți să instalați dependentele?&#10;Atentie! Dacă selectați NU, antenamentul nu se poate realiza corect! &#10;Arhitectura GPU poate să meargă doar pe plăci video NVIDIA!" name="LDependente" style="width: 508px; height: 58px; margin-bottom: 16px;"/>
+            <ui:RadioButtonGroup label="" name="ADependente" choices="Da,Nu" style="width: 66px;"/>
+            <ui:RadioButtonGroup label="" name="AArhitectura" choices="CPU,Placa video standard (seriile GTX și RTX 2000-4000),Placa video noua (seriile RTX 5000+)"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Procesare" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: center; align-content: auto; width: 729px; flex-direction: row;">
+            <ui:Label text="Pe ce arhitectură doriți să se realizeze antrenarea modelului?&#10;Atentie! Pentru rularea antrenamentului pe placa video, &#10;este necesară instalarea dependentelor GPU pentru a functiona corect!" name="LProcesare" style="width: 462px; margin-right: 30px;"/>
+            <ui:RadioButtonGroup label="" name="AProcesare" choices="Procesor (CPU),Placa video (GPU)" style="width: 207px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Nume" style="flex-grow: 1; flex-direction: row; width: 576px; align-items: center; justify-content: space-between;">
+            <ui:Label text="Indroduceți numele antrenării: " name="LNume" style="width: 332px;"/>
+            <ui:TextField label="" placeholder-text="" name="TNume" style="width: 200px; height: 35px; align-items: flex-start; flex-direction: row; justify-content: flex-start; align-content: auto;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="NumeA" style="flex-grow: 1; flex-direction: row; width: 803px;">
+            <ui:Label text="Indroduceți numele dacă doriți să se facă instantierea de la &#10;alt antrenament (Lăsați liber dacă se începe de la 0): " name="LANume" style="width: 475px; align-items: stretch; justify-content: center; flex-direction: row;"/>
+            <ui:TextField label="" placeholder-text="" value="" name="TNumeA" style="width: 202px; height: 35px; align-items: auto; flex-direction: row; justify-content: space-around; align-content: auto; align-self: center;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Moment" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: center; align-content: auto; width: 612px; flex-direction: row;">
+            <ui:Label text="Doriți sa incepeți antrenamentul de la început sau să-l continuați?" name="LMoment"/>
+            <ui:RadioButtonGroup label="" name="AMoment" choices="De la început,Continuare" style="width: 202px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Mediu" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: center; align-content: auto; width: 638px; flex-direction: row;">
+            <ui:Label text="Alegeți mediul de antrenare:" name="LMediu" style="align-items: stretch; justify-content: center; width: 448px;"/>
+            <ui:RadioButtonGroup label="" name="AMediu" choices="Cu grafică în editor,Fară grafică,Cu grafică în build" style="flex-direction: row; align-self: auto; align-content: auto; width: 179px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Numar" style="flex-grow: 1; flex-direction: row-reverse; width: 569px;">
+            <ui:IntegerField label="" value="10" password="true" name="TNumar" style="width: 64px; height: 52px; border-left-color: rgb(0, 0, 0); flex-direction: row;"/>
+            <ui:Label text="Introduceți numărul de instanțe al antrenamentului&#10;Atentie! Fiecare instanță are 55 de agenti! Valoarea recomandată: 10" name="LNumar" style="width: 560px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Butoane" style="flex-grow: 1; flex-direction: row;">
+            <ui:Button text="Inapoi" name="BtnInapoi" style="width: 160px; height: 32px; margin-bottom: 19px;"/>
+            <ui:Button text="Incepe antrenamentul" name="BtnAntrenament" style="width: 160px; height: 32px; margin-bottom: 19px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

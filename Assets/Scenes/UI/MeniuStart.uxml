@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Meniu" style="flex-grow: 1; align-items: center; justify-content: center; align-self: auto; align-content: flex-start; background-color: rgb(125, 125, 125); flex-direction: row;">
+        <ui:Button text="Joc" name="Joc" style="width: 84px;"/>
+        <ui:Button text="Antrenare" name="Antrenare" style="width: 86px;"/>
+        <ui:Button text="Testare" name="Testare" style="width: 88px;"/>
+    </ui:VisualElement>
+</ui:UXML>

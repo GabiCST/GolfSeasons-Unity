@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.blend binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.exr binary
+*.hdr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.onnx binary
+*.dll binary
+*.exe binary
+*.db binary
+*.zip binary

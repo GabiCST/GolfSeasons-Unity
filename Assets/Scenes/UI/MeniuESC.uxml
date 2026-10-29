@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="MeniuESC" style="flex-grow: 1; align-items: center; justify-content: center; align-self: auto; align-content: flex-start; background-color: rgb(125, 125, 125); flex-direction: column;">
+        <ui:Button text="Oprire Antrenament" name="Oprire" style="height: 47px; margin-bottom: 22px;"/>
+        <ui:Button text="Revenire&#10;" name="Revenire" style="width: 84px;"/>
+        <ui:Button text="Meniu" name="Meniu" style="width: 86px;"/>
+        <ui:Button text="Iesire" name="Iesire" style="width: 88px;"/>
+    </ui:VisualElement>
+</ui:UXML>

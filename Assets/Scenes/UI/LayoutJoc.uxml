@@ -1,0 +1,255 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/linie.uss?fileID=7433441132597879392&amp;guid=9e6baba4ff500a143b688a777803c746&amp;type=3#linie"/>
+    <ui:VisualElement name="Ecran_ScoreBoard" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: space-evenly; align-content: flex-start; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+        <ui:VisualElement name="Tabel_BackGround" style="flex-grow: 0; background-color: rgba(56, 212, 0, 0.99); justify-content: flex-start; align-items: stretch; width: 526px; height: auto; padding-left: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; margin-bottom: 0; align-content: flex-start; background-image: none; background-size: 100% 100%; -unity-background-image-tint-color: rgba(255, 157, 255, 0.5);">
+            <ui:Button text="Inapoi&#10;" name="Inapoi" style="width: 67px; height: 7px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: -17px;"/>
+            <ui:Label text="Cele mai bune scoruri" name="Titlu" style="-unity-font-style: bold-and-italic; justify-content: flex-start; align-items: center; align-self: center; padding-top: 10px; margin-top: -14px;"/>
+            <ui:VisualElement name="Rand_Sus" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; padding-bottom: 0; -unity-font-style: bold-and-italic; color: rgb(0, 0, 0); margin-top: -10px;">
+                <ui:Label text="Traseu" name="Sezon" class="linii linie-verticala linie-stanga" style="width: 20%; height: auto; -unity-text-align: upper-center;"/>
+                <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                <ui:Label text="Total" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Rand_Primavara" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-content: flex-start; align-items: center; margin-top: 0;">
+                <ui:VisualElement name="Rand_Lovituri_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Par primavara" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Lovituri" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Lovituri" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Timp par" name="Timp_par" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Timp scurs" name="Timp" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Rand_Vara" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-content: flex-start; align-items: center; margin-top: 0;">
+                <ui:VisualElement name="Rand_Lovituri_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Par Vara" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Lovituri" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Lovituri" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Timp par" name="Timp_par" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Timp scurs" name="Timp" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Rand_Toamna" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-content: flex-start; align-items: center; margin-top: 0;">
+                <ui:VisualElement name="Rand_Lovituri_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Par Toamna" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Lovituri" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Lovituri" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Timp par" name="Timp_par" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Timp scurs" name="Timp" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Rand_Iarna" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-content: flex-start; align-items: center; margin-top: 0;">
+                <ui:VisualElement name="Rand_Lovituri_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Par Iarna" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Lovituri" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Lovituri" name="Text" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Lovituri" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp_Par" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: -7px;">
+                    <ui:Label text="Timp par" name="Timp_par" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="Rand_Timp" class="linie-jos" style="flex-grow: 0; flex-direction: row; justify-content: space-evenly; align-items: stretch; align-self: stretch; -unity-font-style: italic; color: rgb(0, 0, 0); margin-bottom: 0;">
+                    <ui:Label text="Timp scurs" name="Timp" class="linie-verticala linie-stanga" style="width: 20%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="1" name="Nivel1" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="2" name="Nivel2" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="3" name="Nivel3" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="4" name="Nivel4" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="5" name="Nivel5" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="6" name="Nivel6" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="7" name="Nivel7" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="8" name="Nivel8" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="9" name="Nivel9" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="10" name="Nivel10" enable-rich-text="false" class="linie-verticala" style="width: 6%; -unity-text-align: upper-center;"/>
+                    <ui:Label text="99" name="Total" enable-rich-text="false" class="linie-verticala" style="width: 17%; -unity-text-align: upper-center;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
